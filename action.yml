@@ -1,0 +1,16 @@
+name: Run Tests
+description: Run tests for project.
+author: coinhubplatform
+inputs:
+  files:
+    description: Blob of files to test
+    required: false
+    default: '.'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ inputs.files }}
+branding: 
+  icon: check-circle
+  color: blue
