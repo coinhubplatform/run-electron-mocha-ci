@@ -7,7 +7,7 @@ ENV DISPLAY :99.0
 
 RUN apt-get update
 RUN apt-get install -y nodejs npm libgconf-2-4 libatk-bridge2.0-0 libxss1 \
-    libxtst6 libnss3 libasound2-dev xvfb dbus-x11 libgtk-3-common \
+    libxtst6 libnss3 libasound2-dev xvfb dbus-x11 libgtk-3-common build-essential python \
     libgbm-dev
 RUN npm install -g npm
 
