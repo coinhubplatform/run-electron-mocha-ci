@@ -1,6 +1,6 @@
-# NPM test runner
+# NPM electron-mocha test runner
 
-This action executes 'npm test' on a sepcific javascript project.
+THe dockerfile installs everything you need to run electron projects in a headless state. This action executes 'npm test' on a sepcific electron-mocha javascript project. 
 
 ## License
 
